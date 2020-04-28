@@ -1,5 +1,13 @@
 import React, { Component } from 'react';
 import Logo from './Logo.js';
+import fb from './images/fb-icon.png';
+import twit from './images/twit-icon.png';
+import gp from './images/gp-icon.png';
+import insta from './images/insta-icon.png';
+import flic from './images/flic-icon.png';
+import pint from './images/pint-icon.png';
+import rss from './images/rss-icon.png';
+import mail from './images/mail-icon.png';
 
 export default class Header extends Component {
     render() {
@@ -8,14 +16,14 @@ export default class Header extends Component {
                 <Logo />
                 <h1>Delicious</h1>
                 <h2>The best food blog on the web</h2>
-                <img src="./images/fb-icon.png" alt="facebook icon"/>
-                <img src="./images/twit-icon.png" alt="twitter icon"/>
-                <img src="./images/gp-icon.png" alt="google plus icon"/>
-                <img src="./images/insta-icon.png" alt="instagram icon"/>
-                <img src="./images/flic-icon.png" alt="flic icon"/>
-                <img src="./images/pint-icon.png" alt="pinterest icon"/>
-                <img src="./images/rss-icon.png" alt="rss icon"/>
-                <img src="./images/mail-icon.png" alt="mail icon"/>
+                <img src={fb} alt="facebook icon"/>
+                <img src={twit} alt="twitter icon"/>
+                <img src={gp} alt="google plus icon"/>
+                <img src={insta} alt="instagram icon"/>
+                <img src={flic} alt="flic icon"/>
+                <img src={pint} alt="pinterest icon"/>
+                <img src={rss} alt="rss icon"/>
+                <img src={mail} alt="mail icon"/>
             </div>
         )
     }
